@@ -51,4 +51,6 @@ You might want to use different variables or configurations based on the environ
 cp Configuration.java.example Configuration.java
 ```
 
-and change it to configuration required for local development. `Configuration.java` should be added to `.gitignore` to avoid accidentally committing the file
+and change it to configuration required for local development. `Configuration.java` should be added to `.gitignore` to avoid accidentally committing the file.
+
+Check out our [OneMDM Client](https://github.com/multunus/onemdm-client) for a configuration file ([Config.java.example](https://github.com/multunus/onemdm-client/blob/master/app/src/main/java/com/multunus/onemdm/config/Config.java.example)) with more examples.
