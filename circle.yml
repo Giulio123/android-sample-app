@@ -10,3 +10,9 @@ test:
 general:
   artifacts:
     - "app/build/outputs/apk"
+
+deployment:
+  production:
+    branch: master
+    commands:
+      - ./gradlew build
