@@ -30,3 +30,7 @@ You can run the tests via the terminal. Go to the root directory of the project 
 ``` bash
 ./gradlew clean test
 ```
+
+#### Continuous Delivery using CircleCI
+
+The [circle.yml](https://github.com/multunus/android-sample-app/blob/master/circle.yml) configuration takes care of running the tests and building the app once it it pushed to remote using CircleCI. If you are using a different version of SDK tools, you'll have to update it in dependencies section.
