@@ -6,3 +6,7 @@ dependencies:
 test:
   override:
     - ./gradlew clean test
+
+general:
+  artifacts:
+    - "app/build/outputs/apk"
