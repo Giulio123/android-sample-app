@@ -27,6 +27,17 @@ android {
     lintOptions {
         abortOnError false
     }
+    signingConfigs {
+        release {
+            try {
+                storeFile file(System.getenv("ANDROID_SAMPLE_KEYSTORE"))
+            }
+            catch (Exception ex) {
+            }
+            keyAlias System.getenv("ANDROID_SAMPLE_KEY_ALIAS")
+            storePassword System.getenv("ANDROID_SAMPLE_STOREPWD")
+        }
+    }
 }
 
 dependencies {
