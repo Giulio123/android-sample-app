@@ -8,7 +8,7 @@ This sample android app demonstrates how to setup [Robolectric](http://robolectr
 3. [x] Writing Your First Test
 4. [x] Running Robolectric Tests
 5. [x] Continuous Delivery using CircleCI
-6. [ ] Setting Environment-dependent Configurations
+6. [x] Setting Environment-dependent Configurations
 7. [ ] Generating Signed APK in CircleCI
 
 #### Creating an Android Project in Android Studio
