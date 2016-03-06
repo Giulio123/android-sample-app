@@ -45,7 +45,7 @@ The [circle.yml](https://github.com/multunus/android-sample-app/blob/master/circ
 
 #### Setting Environment-dependent Configurations
 
-You might want to use different variables or configurations based on the environment. The easiest way to achieve this is to create a [Configuration.java.example]() file containing default configuration for release environment. While developing locally, copy this file:
+You might want to use different variables or configurations based on the environment. The easiest way to achieve this is to create a [Configuration.java.example](https://github.com/multunus/android-sample-app/blob/master/app/src/main/java/com/multunus/cdapp/Configuration.java.example) file containing default configuration for release environment. While developing locally, copy this file:
 
 ``` bash
 cp Configuration.java.example Configuration.java
