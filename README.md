@@ -29,6 +29,8 @@ dependencies {
 }
 ```
 
+See the wiki page for a detailed version: [Integrating Robolectric to Android App](https://github.com/multunus/android-sample-app/wiki/Integrating-Robolectric-to-Android-App)
+
 #### Writing Your First Test
 
 Test files reside in `app/src/test/` directory. For now, create a test file for MainActivity, [MainActivityTest](https://github.com/multunus/android-sample-app/blob/master/app/src/test/java/com/multunus/cdapp/MainActivityTest.java).
