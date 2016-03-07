@@ -1,6 +1,8 @@
 android-sample-app
 ==================
 
+[![Circle CI](https://circleci.com/gh/hasgeek/kulfi.svg?style=svg)](https://circleci.com/gh/hasgeek/kulfi)
+
 This sample android app demonstrates how to setup [Robolectric](http://robolectric.org/) to write/run tests and how to create a continuous integration/deployment setup either in Wercker/CircleCI
 
 1. [x] Creating an Android Project in Android Studio
@@ -29,7 +31,9 @@ dependencies {
 
 #### Writing Your First Test
 
-Test files reside in `app/src/test/` directory. For now, create a test file for MainActivity, [MainActivityTest](https://github.com/multunus/android-sample-app/blob/master/app/src/test/java/com/multunus/cdapp/MainActivityTest.java)
+Test files reside in `app/src/test/` directory. For now, create a test file for MainActivity, [MainActivityTest](https://github.com/multunus/android-sample-app/blob/master/app/src/test/java/com/multunus/cdapp/MainActivityTest.java).
+
+The file contains a sample test. To learn more about writing Robolectric tests, see: [Robolectric Samples](https://github.com/robolectric/robolectric-samples)
 
 #### Running Robolectric Tests
 
@@ -38,6 +42,13 @@ You can run the tests via the terminal. Go to the root directory of the project 
 ``` bash
 ./gradlew clean test
 ```
+
+To build APK locally, run:
+
+``` bash
+./gradlew clean build
+```
+
 
 #### Continuous Delivery using CircleCI
 
