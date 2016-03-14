@@ -1,4 +1,4 @@
-box: takke/android-wercker
+box: jacekmarchwicki/android
 build:
   steps:
     - install-packages:
