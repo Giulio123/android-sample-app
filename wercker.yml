@@ -1,4 +1,4 @@
-box: beevelop/java
+box: takke/android-wercker
 build:
   steps:
     - install-packages:
