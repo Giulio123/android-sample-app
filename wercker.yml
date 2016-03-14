@@ -1,4 +1,6 @@
 box: takke/android-wercker
+install-packages:
+  packages: openssl
 build:
   steps:
     - script:
