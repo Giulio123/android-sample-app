@@ -1,17 +1,15 @@
 android-sample-app
 ==================
 
-[![Circle CI](https://circleci.com/gh/hasgeek/kulfi.svg?style=svg)](https://circleci.com/gh/hasgeek/kulfi)
-
-This sample android app demonstrates how to setup [Robolectric](http://robolectric.org/) to write/run tests and how to create a continuous integration/deployment setup either in Wercker/CircleCI
+This sample android app demonstrates how to setup [Robolectric](http://robolectric.org/) to write/run tests and how to create a continuous integration/deployment setup in Wercker.
 
 1. [x] Creating an Android Project in Android Studio
 2. [x] Integrating Robolectric
 3. [x] Writing Your First Test
 4. [x] Running Robolectric Tests
-5. [x] Continuous Delivery using CircleCI
+5. [x] Continuous Delivery using Wercker
 6. [x] Setting Environment-dependent Configurations
-7. [ ] Generating Signed APK in CircleCI
+7. [ ] Generating Signed APK in Wercker
 
 #### Creating an Android Project in Android Studio
 
@@ -54,7 +52,7 @@ To build APK locally, run:
 
 #### Continuous Delivery using CircleCI
 
-The [circle.yml](https://github.com/multunus/android-sample-app/blob/master/circle.yml) configuration takes care of running the tests and building the app once it it pushed to remote using CircleCI. If you are using a different version of SDK tools, you'll have to update it in dependencies section.
+The [wercker.yml](https://github.com/multunus/android-sample-app/blob/master/wercker.yml) configuration takes care of running the tests and building the app once it it pushed to remote using Wercker. It uses a [docker container](https://github.com/takke/docker-android-wercker) to build/deploy applications.
 
 #### Setting Environment-dependent Configurations
 
