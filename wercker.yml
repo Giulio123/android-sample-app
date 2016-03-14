@@ -1,4 +1,4 @@
-box: d4nc00per/wercker-android-23
+box: beevelop/java
 build:
   steps:
     - install-packages:
