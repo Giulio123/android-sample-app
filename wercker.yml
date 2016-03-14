@@ -1,4 +1,4 @@
-box: jacekmarchwicki/android
+box: d4nc00per/wercker-android-23
 build:
   steps:
     - install-packages:
