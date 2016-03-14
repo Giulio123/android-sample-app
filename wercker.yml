@@ -10,6 +10,9 @@ build:
       name: copy configuration
       code: cp app/src/main/java/com/multunus/cdapp/Configuration.java.example app/src/main/java/com/multunus/cdapp/Configuration.java
     - script:
+      name: update android sdk
+      code: echo y | android update sdk --no-ui --all --filter "android-19,build-tools-23.0.1,android-23"
+    - script:
       name: run gradle
       code: ./gradlew --full-stacktrace build
 
