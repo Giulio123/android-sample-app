@@ -1,8 +1,8 @@
 box: takke/android-wercker
-install-packages:
-  packages: openssl
 build:
   steps:
+    - install-packages:
+      packages: openssl
     - script:
       name: decrypt key
       code: openssl enc -in app/androidsample.enc -out app/androidsample.jks -d -aes256 -k $DECRYPTION_KEY
