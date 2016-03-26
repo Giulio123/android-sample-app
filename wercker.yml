@@ -1,4 +1,4 @@
-box: yedhukrishnan/android
+box: beevelop/android
 build:
   steps:
     - install-packages:
