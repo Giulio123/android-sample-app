@@ -1,4 +1,4 @@
-box: beevelop/android
+box: gfx2015/android
 build:
   steps:
     - install-packages:
