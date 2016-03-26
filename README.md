@@ -9,7 +9,7 @@ This sample android app demonstrates how to setup [Robolectric](http://robolectr
 4. [x] Running Robolectric Tests
 5. [x] Continuous Delivery using Wercker
 6. [x] Setting Environment-dependent Configurations
-7. [ ] Generating Signed APK in Wercker
+7. [x] Generating Signed APK in Wercker
 
 #### Creating an Android Project in Android Studio
 
