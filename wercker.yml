@@ -1,4 +1,4 @@
-box: yedhukrishnan/android:v1
+box: yedhukrishnan/wercker-android
 build:
   steps:
     - install-packages:
