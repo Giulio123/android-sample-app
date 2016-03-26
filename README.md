@@ -65,3 +65,7 @@ cp Configuration.java.example Configuration.java
 and change it to configuration required for local development. `Configuration.java` should be added to `.gitignore` to avoid accidentally committing the file. `circle.yml` file contains the command to copy the example file and generate `Configuration.java` before creating the release APK.
 
 Check out our [OneMDM Client](https://github.com/multunus/onemdm-client) for a configuration file ([Config.java.example](https://github.com/multunus/onemdm-client/blob/master/app/src/main/java/com/multunus/onemdm/config/Config.java.example)) with more examples.
+
+#### Generating Signed APK in Wercker
+
+Check out the wiki page to know how to generate a signed APK from wercker: [Creating Signed APK in Wercker](https://github.com/multunus/android-sample-app/wiki/Creating-Signed-APK-in-Wercker)
