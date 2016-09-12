@@ -7,7 +7,7 @@ This sample android app demonstrates how to setup [Robolectric](http://robolectr
 2. [x] Integrating Robolectric
 3. [x] Writing Your First Test
 4. [x] Running Robolectric Tests
-5. [x] Continuous Delivery using CircleCI
+5. [x] Continuous Delivery using [Wercker](http://wercker.com/)
 6. [x] Setting Environment-dependent Configurations
 7. [x] Generating Signed APK in Wercker
 
